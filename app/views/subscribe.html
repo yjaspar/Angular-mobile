@@ -1,0 +1,22 @@
+<div ng-controller="SubscribeCtrl">
+	<button ng-click="relocate()">Home</button>
+	<h1>Subscribe</h1>
+	<form name="myForm" ng-submit="createAccount()">
+		<table>
+			<tr>
+				<td>Login</td>
+				<td><input name="input" ng-model="user.email" placeholder="Adresse@email.com" required></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input name="input" type="password" ng-model="user.password" placeholder="password" required></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Create"></td>
+				<td></td>
+			</tr>
+			{{data}}
+		</table>
+	</form>
+	<br>
+</div>

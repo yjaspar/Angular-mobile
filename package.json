@@ -1,0 +1,9 @@
+{
+  "author": "Yoann Jaspar <yjaspar@gmail.com>",
+  "name": "Mobile-app-shell",
+  "version": "0.0.1",
+  "dependencies": {
+  	"testacular":"0.5.7"
+  },
+  "devDependencies": {}
+}
