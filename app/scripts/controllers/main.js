@@ -23,7 +23,7 @@ angularjsTestApp.controller('SubscribeCtrl', function($scope, $location, $http) 
 	}
 
 	$scope.createAccount = function(){
-		$http({url: 'http://demo:VlddlAOA@api.staging.openask.com/categories?callback=createProfile', method: 'JSONP', withCredentials: false}).
+		$http({url: 'https://api.twitter.com/1/help/test.json?callback=createProfile', method: 'JSONP', withCredentials: false}).
 		success(function(data, status, headers, config) {
 			alert('Success: '+data+" - "+status);
 		}).
